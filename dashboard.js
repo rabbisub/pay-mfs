@@ -42,7 +42,11 @@ function btnToggle(id){
     document.getElementById(id).classList.remove('border-gray-300')
     document.getElementById(id).classList.add('border-[#0874f2]','bg-[#0874f20d]','text-[#0874F2]')
 }
-
+/// log out button
+document.getElementById('logOut-btn').addEventListener('click',function(){
+    alert('Log Out Successful')
+    window.location.href = 'index.html';
+})
 
 // ADD MONEY 
 document.getElementById('add-money-btn').addEventListener('click', function(e) {
